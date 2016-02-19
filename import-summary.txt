@@ -1,0 +1,99 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* app/
+* app/build.gradle
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/aidl/
+* app/src/main/aidl/com/
+* app/src/main/aidl/com/skjolberg/
+* app/src/main/aidl/com/skjolberg/nfc/
+* app/src/main/aidl/com/skjolberg/nfc/acs/
+* app/src/main/aidl/com/skjolberg/nfc/acs/remote/
+* app/src/main/aidl/com/skjolberg/nfc/acs/remote/IAcr1222LReaderControl.aidl
+* app/src/main/aidl/com/skjolberg/nfc/acs/remote/IAcr122UReaderControl.aidl
+* app/src/main/aidl/com/skjolberg/nfc/acs/remote/IAcr1251UReaderControl.aidl
+* app/src/main/aidl/com/skjolberg/nfc/acs/remote/IAcr1281UReaderControl.aidl
+* app/src/main/aidl/com/skjolberg/nfc/acs/remote/IAcr1283LReaderControl.aidl
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/skjolberg/
+* app/src/main/java/com/skjolberg/nfc/
+* app/src/main/java/com/skjolberg/nfc/NfcReader.java
+* app/src/main/java/com/skjolberg/nfc/NfcService.java
+* app/src/main/java/com/skjolberg/nfc/NfcTag.java
+* app/src/main/java/com/skjolberg/nfc/acs/
+* app/src/main/java/com/skjolberg/nfc/acs/Acr1222LReader.java
+* app/src/main/java/com/skjolberg/nfc/acs/Acr122UReader.java
+* app/src/main/java/com/skjolberg/nfc/acs/Acr1251UReader.java
+* app/src/main/java/com/skjolberg/nfc/acs/Acr1281UReader.java
+* app/src/main/java/com/skjolberg/nfc/acs/Acr1283LReader.java
+* app/src/main/java/com/skjolberg/nfc/acs/AcrAutomaticPICCPolling.java
+* app/src/main/java/com/skjolberg/nfc/acs/AcrDefaultLEDAndBuzzerBehaviour.java
+* app/src/main/java/com/skjolberg/nfc/acs/AcrFont.java
+* app/src/main/java/com/skjolberg/nfc/acs/AcrLED.java
+* app/src/main/java/com/skjolberg/nfc/acs/AcrPICC.java
+* app/src/main/java/com/skjolberg/nfc/acs/AcrReader.java
+* app/src/main/java/com/skjolberg/nfc/acs/AcrReaderException.java
+* app/src/main/java/com/skjolberg/nfc/util/
+* app/src/main/java/com/skjolberg/nfc/util/activity/
+* app/src/main/java/com/skjolberg/nfc/util/activity/NfcDetectorActivity.java
+* app/src/main/java/com/skjolberg/nfc/util/activity/NfcExternalDetectorActivity.java
+* app/src/main/res/
+* app/src/main/res/xml/
+* app/src/main/res/xml/acs_accessory_filter.xml
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* proguard-project.txt
+* settings.gradle
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/com/skjolberg/nfc/acs/remote/IAcr1222LReaderControl.aidl => app/src/main/aidl/com/skjolberg/nfc/acs/remote/IAcr1222LReaderControl.aidl
+* src/com/skjolberg/nfc/acs/remote/IAcr122UReaderControl.aidl => app/src/main/aidl/com/skjolberg/nfc/acs/remote/IAcr122UReaderControl.aidl
+* src/com/skjolberg/nfc/acs/remote/IAcr1251UReaderControl.aidl => app/src/main/aidl/com/skjolberg/nfc/acs/remote/IAcr1251UReaderControl.aidl
+* src/com/skjolberg/nfc/acs/remote/IAcr1281UReaderControl.aidl => app/src/main/aidl/com/skjolberg/nfc/acs/remote/IAcr1281UReaderControl.aidl
+* src/com/skjolberg/nfc/acs/remote/IAcr1283LReaderControl.aidl => app/src/main/aidl/com/skjolberg/nfc/acs/remote/IAcr1283LReaderControl.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
